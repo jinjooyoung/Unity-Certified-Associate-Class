@@ -23,11 +23,13 @@ public class HelloCoode : MonoBehaviour
                 Debug.Log(i + " x " + j + " = " + (i * j));             // 1 x 1 = 1 ~ 9 x 9 = 81
             }
         }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        int k = 0;
+
+        while (k < 10)
+        {
+            Debug.Log(k + " 번째 루프입니다.");
+            k++;
+        }
     }
 }
